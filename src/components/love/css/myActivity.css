@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+[v-cloak] {
+  display: none;
+}
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+/* 列表 */
+#List {
+  margin-bottom: 3.5rem;
+}
+#List .list {
+  padding: 0.5rem 0.5rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#List .list > div {
+  float: left;
+  width: 60%;
+}
+#List .list > div > span {
+  font-size: 0.75rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+#List .list > div > p {
+  font-size: 0.65rem;
+  color: #999;
+}
+#List .list > .imgBx {
+  float: right;
+  width: 5.86666667rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  overflow: hidden;
+}
+#List .list > .imgBx > img {
+  max-width: 100%;
+}
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FA5051 !important;
+  background-color: #FA5051 !important;
+}
+.layui-layer-molv .layui-layer-title {
+  background-color: #FA5051 !important;
+}
+/*# sourceMappingURL=myActivity.css.map */

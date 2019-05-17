@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+
+/* 列表 */
+#List {
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+#List .list {
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+#List .list .header {
+  padding: 0.8rem;
+  height: 2rem;
+  position: relative;
+  box-sizing: content-box;
+}
+
+#List .list .header .left {
+  display: inline-block;
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+  border-radius: 50%;
+  float: left;
+}
+
+#List .list .header > .msg {
+  float: left;
+  margin-left: 0.5rem;
+}
+
+#List .list .header > .msg span {
+  display: block;
+}
+
+#List .list .header > .msg .name {
+  font-size: 0.85333333rem;
+  color: #333;
+}
+
+#List .list .header > .msg .dept {
+  font-size: 0.64rem;
+  color: #999;
+}
+
+#List .list .header .right {
+  float: right;
+  width: 1.6rem;
+  margin-top: 0.2rem;
+}
+
+#List .list .header .edit {
+  position: absolute;
+  bottom: -4rem;
+  right: 1rem;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  box-shadow: 2px 3px 10px #ccc;
+}
+
+#List .list .header .edit p {
+  padding: 0.5rem 1rem;
+  color: #999;
+}
+
+#List .list .header .edit p img {
+  width: 1rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+#List .list .header .edit::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 1rem;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-top: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+  transform: rotate(45deg);
+}
+
+#List .list > span {
+  display: block;
+  font-size: 0.85333333rem;
+  color: #333;
+  margin: 0 0.75rem;
+  padding-bottom: 0.75rem;
+  word-break: break-all;
+}
+
+#List .list > .time {
+  margin: 0 0.75rem;
+  border-top: 1px solid #efefef;
+  overflow: hidden;
+  padding: 0.6rem 0;
+}
+
+#List .list > .time .left {
+  float: left;
+  color: #999;
+  font-size: 0.7rem;
+}
+
+#List .list > .time .right {
+  float: right;
+  color: #999;
+  font-size: 0.7rem;
+}
+
+#List .list > .time .right img {
+  width: 0.7rem;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
+#List .list > .time .right .fabu {
+  margin-right: 2rem;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64%;
+  height: 2rem;
+  line-height: 2rem;
+  position: fixed;
+  left: 50%;
+  margin-left: -32%;
+  bottom: .5rem;
+  /*background-color: #ad3939;*/
+  background-color: #f98b8b;
+  color: #fff;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 30px;
+}
+
+#footer img {
+  width: 1rem;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=perDt.css.map */

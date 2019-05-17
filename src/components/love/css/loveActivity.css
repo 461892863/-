@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+[v-cloak] {
+  display: none;
+}
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+/* 搜索 */
+#search {
+  background-color: #fff;
+  padding: 0.3rem 0.7rem;
+  position: relative;
+}
+#search input {
+  width: 100%;
+  border: none;
+  background-color: #efefef;
+  padding-left: 1.5rem;
+  box-sizing: border-box;
+  height: 1.6rem;
+  outline: none;
+  border-radius: 3px;
+}
+#search img {
+  position: absolute;
+  top: 0.65rem;
+  left: 1rem;
+  width: 0.9rem;
+}
+/* 列表 */
+#List {
+  margin-bottom: 3.5rem;
+}
+#List .list {
+  padding: 0.77333333rem 0.8rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #EFEFEF;
+}
+#List .list > div {
+  float: left;
+  width: 60%;
+}
+#List .list > div > span {
+  font-size: 0.85333333rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+#List .list > div > p {
+  font-size: 0.64rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 0.7rem;
+  color: #999;
+}
+#List .list > div > p .time {
+  display: inline-block;
+  margin-right: 1.3rem;
+}
+#List .list > .imgBoxs {
+  float: right;
+  width: 5.86666667rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  overflow: hidden;
+}
+#List .list > .imgBoxs > img {
+  max-width: 100%;
+}
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FA5051 !important;
+  background-color: #FA5051 !important;
+}
+.layui-layer-molv .layui-layer-title {
+  background-color: #FA5051 !important;
+}
+/* 底部 */
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+}
+#footer ul {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+#footer ul a {
+  float: left;
+  width: 33.33%;
+  padding: 0.3rem 1.3rem;
+  box-sizing: border-box;
+  font-size: 0.65rem;
+  color: #ccc;
+}
+#footer ul a li img {
+  width: 1.3rem;
+}
+#footer ul a li span {
+  display: block;
+}
+#footer ul a.red {
+  color: #ad3939;
+}
+/*# sourceMappingURL=loveActivity.css.map */

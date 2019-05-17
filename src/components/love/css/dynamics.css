@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+
+/* 个人信息 */
+#mine {
+  /* 上传图片 */
+}
+
+#mine .brief {
+  padding: 0.3rem 0.5rem;
+  background-color: #fff;
+  font-size: 0.75rem;
+}
+
+#mine .brief textarea {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+#mine .upload {
+  background-color: #fff;
+  padding: 0.5rem 0.5rem;
+}
+
+#mine .upload > p {
+  padding: 0.3rem 0;
+}
+
+#mine .upload > div {
+  overflow: hidden;
+  padding-top: 0.4rem;
+}
+
+#mine .upload > div .album {
+  width: 4rem;
+  height: 4rem;
+  background-color: #ededed;
+  text-align: center;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+#mine .upload > div .album span {
+  display: block;
+}
+
+#mine .upload > div .album img {
+  width: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+#mine .upload > div .album input {
+  width: 4rem;
+  height: 4rem;
+  opacity: 0;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 100;
+}
+
+#mine .upload > div .list {
+  width: 4rem;
+  height: 4rem;
+  float: left;
+  margin-right: 0.4rem;
+  margin-top: 0.3rem;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mine .upload > div .list .imag {
+  display: inline-block;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+#mine .upload > div .list .del {
+  position: absolute;
+  top: -0.4rem;
+  right: -0.4rem;
+  width: 0.8rem;
+}
+
+#submit {
+  width: 90%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 20% 5% 4rem 5%;
+  /*background-color: #ad3939;*/
+  background-color: #f98b8b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FA5051 !important;
+  background-color: #FA5051 !important;
+}
+
+.layui-layer-molv .layui-layer-title {
+  background-color: #FA5051 !important;
+}
+
+/* 相册弹框 */
+#bigImg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#bigImg img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 2.7rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#footer ul {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+#footer ul a {
+  float: left;
+  width: 33.33%;
+  padding: 0.3rem 1.3rem;
+  box-sizing: border-box;
+  font-size: 0.6rem;
+  color: #666;
+}
+
+#footer ul a li img {
+  width: 1.15rem;
+}
+
+#footer ul a li span {
+  display: block;
+}
+
+#footer ul a.red {
+  color: #fe5f63;
+}
+
+/*# sourceMappingURL=dynamics.css.map */

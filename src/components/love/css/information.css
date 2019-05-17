@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+
+/* 头像 */
+#header {
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+
+#header > a {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  color: #FA5051;
+}
+
+#header input {
+  width: 4rem;
+  height: 4rem;
+  opacity: 0;
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+#header img {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+/* 信息填写 */
+#msg,
+#real {
+  margin-bottom: 0.4rem;
+}
+
+#msg > .header,
+#real > .header {
+  padding: 0.3rem 0.7rem;
+  padding-right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  font-size: 0.75rem;
+  height: 2.93333333rem;
+  line-height: 2.33333333rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#msg > .header input,
+#real > .header input {
+  width: 100%;
+  height: 2.93333333rem;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#msg > .header .head,
+#real > .header .head {
+  float: right;
+  display: inline-block;
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+  border-radius: 50%;
+}
+
+#msg > .header .right,
+#real > .header .right {
+  float: right;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.3rem;
+  margin-top: 0.45rem;
+}
+
+#msg .name,
+#real .name {
+  padding: 0rem 0.7rem;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  font-size: 0.75rem;
+  height: 2.34666667rem;
+  line-height: 2.34666667rem;
+}
+
+#msg .name .peoName,
+#real .name .peoName {
+  float: right;
+}
+
+#msg .sex,
+#real .sex {
+  padding: 0rem 0.7rem;
+  padding-right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  font-size: 0.75rem;
+  height: 2.34666667rem;
+  line-height: 2.34666667rem;
+}
+
+#msg .sex select,
+#real .sex select, input {
+  font-size: 0.75rem;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  width: 58%;
+  float: right;
+  /*direction: rtl;*/
+  text-align: right;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 2.3rem;
+}
+
+#msg .sex img,
+#real .sex img {
+  float: right;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.3rem;
+  margin-top: 0.575rem;
+}
+
+#msg .age,
+#real .age {
+  padding: 0rem 0.7rem;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  font-size: 0.75rem;
+  height: 2.34666667rem;
+  line-height: 2.34666667rem;
+}
+
+#msg .age input,
+#real .age input {
+  font-size: 0.75rem;
+  float: right;
+  height: 2.3rem;
+  border: none;
+  outline: none;
+  text-align: right;
+  padding-right: 0.2rem;
+  width: 58%;
+}
+
+/* 个人信息 */
+#mine {
+  /* 上传图片 */
+}
+
+#mine .brief {
+  padding: 0.3rem 0.5rem;
+  background-color: #fff;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.75rem;
+}
+
+#mine .brief span {
+  width: 20%;
+  display: inline-block;
+}
+
+#mine .brief input {
+  width: 72%;
+  font-size: 0.7rem;
+  height: 1.2rem;
+  border: none;
+  outline: none;
+  text-align: text;
+  padding-left: 0.4rem;
+  color: #666;
+}
+
+#mine .upload {
+  background-color: #fff;
+  padding: 0.5rem 0.5rem;
+}
+
+#mine .upload > p {
+  padding: 0.3rem 0;
+}
+
+#mine .upload > div {
+  position: relative;
+  overflow: hidden;
+  padding-top: 0.4rem;
+}
+
+#mine .upload > div .album {
+  width: 4rem;
+  height: 4rem;
+  background-color: #efefef;
+  text-align: center;
+  float: left;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+#mine .upload > div .album span {
+  display: block;
+  font-size: 0.74666667rem;
+  color: #999999;
+}
+
+#mine .upload > div .album img {
+  width: 1.7rem;
+  margin-top: 0.5rem;
+}
+
+#mine .upload > div .album input {
+  width: 4rem;
+  height: 4rem;
+  opacity: 0;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 100;
+}
+
+#mine .upload > div .list {
+  width: 4rem;
+  height: 4rem;
+  float: left;
+  margin-right: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+#mine .upload > div .list .imag {
+  display: inline-block;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+#mine .upload > div .list .del {
+  position: absolute;
+  top: -0.4rem;
+  right: -0.4rem;
+  width: 0.8rem;
+}
+
+#submit {
+  width: 90%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 5%;
+  /*background-color: #ad3939;*/
+  background-color: #f98b8b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FA5051 !important;
+  background-color: #FA5051 !important;
+}
+
+.layui-layer-molv .layui-layer-title {
+  background-color: #FA5051 !important;
+}
+
+/* 相册弹框 */
+#bigImg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#bigImg img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+/* 提交时候的提示 */
+#model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#isAdd {
+  background-color: #fff;
+  width: 74%;
+  position: fixed;
+  top: 50%;
+  left: 13%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  border-radius: 4px;
+}
+
+#isAdd > p {
+  text-align: center;
+  padding-top: 0.69333333rem;
+  padding-bottom: 0.88rem;
+}
+
+#isAdd > p img {
+  display: inline-block;
+  width: 0.96rem;
+  height: 0.96rem;
+  vertical-align: middle;
+}
+
+#isAdd > p span {
+  color: #333;
+  font-size: 0.8rem;
+}
+
+#isAdd > .content {
+  padding: 0 1.2rem 0.77333333rem 1.2rem;
+  color: #666;
+  font-size: 0.7rem;
+}
+
+#isAdd > .bottom {
+  height: 45px;
+  border-top: 1px solid #ddd;
+}
+
+#isAdd > .bottom span {
+  float: left;
+  font-size: 0.8rem;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+
+#isAdd > .bottom .no {
+  width: 49%;
+  border-right: 1px solid #ddd;
+  color: #999;
+}
+
+#isAdd > .bottom .yes {
+  width: 50%;
+  color: #ad3939;
+}
+
+/*# sourceMappingURL=information.css.map */

@@ -1,0 +1,343 @@
+
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FA5051 !important;
+  background-color: #FA5051 !important;
+}
+.layui-layer-molv .layui-layer-title {
+  background-color: #FA5051 !important;
+}
+/* 背景图 */
+#img img {
+  width: 100%;
+  display: inherit;
+}
+/* 个人信息 */
+#per {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  padding-bottom: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+#per > p {
+  font-size: 0.75rem;
+  padding: 0.69333333rem 0;
+}
+#per > p span {
+  display: inline-block;
+  background-color: #FF8D8D;
+  padding: 0 0.2rem;
+  font-size: 0.65rem;
+  margin-left: 0.4rem;
+  color: #fff;
+}
+#per > div {
+  width: 100%;
+  overflow-x: scroll;
+}
+#per > div .img {
+  width: 100%;
+  height: 3.30666667rem;
+}
+#per > div .img > .imgBoxs {
+  width: 5.81333333rem;
+  height: 3.30666667rem;
+  margin-right: 0.48rem;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  overflow: hidden;
+}
+#per > div .img > .imgBoxs img {
+  max-width: 100%;
+}
+#perData {
+  background-color: #fff;
+  padding: 0.4rem 0.5rem;
+  margin-bottom: 0.3rem;
+}
+#perData > p {
+  position: relative;
+  padding-left: 0.7rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+#perData > p:before {
+  content: "";
+  width: 3px;
+  height: 14px;
+  background-color: #ad3939;
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+}
+#perData > div {
+  padding: 0.4rem 0.7rem;
+}
+#perData > div span {
+  display: inline-block;
+  padding: 0.1rem 0.7rem;
+  background-color: #ffcfd3;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 0.6rem;
+}
+/* 个人简介 */
+#introduce {
+  background-color: #fff;
+  padding: 0.4rem 0.5rem;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0;
+}
+#introduce > p {
+  position: relative;
+  padding-left: 0.7rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+#introduce > p:before {
+  content: "";
+  width: 3px;
+  height: 14px;
+  background-color: #ad3939;
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+}
+#introduce > div {
+  padding: 0.4rem 0.7rem;
+}
+#introduce > div p {
+  color: #888888;
+  font-size: 0.65rem;
+}
+/* 最新动态 */
+#newDynamic {
+  background-color: #fff;
+  padding: 0.4rem 0.5rem;
+  padding-bottom: 4rem;
+}
+#newDynamic > p {
+  position: relative;
+  padding-left: 0.7rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+#newDynamic > p:before {
+  content: "";
+  width: 3px;
+  height: 14px;
+  background-color: #ad3939;
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+}
+#newDynamic .list {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #efefef;
+}
+#newDynamic .list > .tent {
+  padding: 0.3rem 0;
+  word-break: break-all;
+}
+#newDynamic .list .content {
+  overflow-x: scroll;
+  width: 100%;
+  padding: 0.4rem 0;
+}
+#newDynamic .list .content .img {
+  max-height: 5rem;
+  min-height: 3.2rem;
+}
+#newDynamic .list .content .img > div {
+  width: 5rem;
+  height: 3.30666667rem;
+  margin-right: 0.3rem;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  overflow: hidden;
+}
+#newDynamic .list .content .img > div img {
+  max-width: 100%;
+}
+#newDynamic .list .reply {
+  overflow: hidden;
+  margin-top: 5px;
+}
+#newDynamic .list .reply .time {
+  float: left;
+}
+#newDynamic .list .reply .fabulous {
+  float: right;
+  margin-right: 0.6rem;
+}
+#newDynamic .list .reply .fabulous img {
+  display: inline-block;
+  margin-right: 0.3rem;
+  width: 0.8rem;
+}
+#newDynamic .list .reply .replyMsg {
+  float: right;
+}
+#newDynamic .list .reply .replyMsg img {
+  display: inline-block;
+  margin-right: 0.3rem;
+  width: 0.9rem;
+  vertical-align: middle;
+}
+#newDynamic .list .otherMsg p {
+  padding: 0.3rem 0 0 0;
+}
+#newDynamic .list .otherMsg p span {
+  word-break: break-all;
+}
+/* 关注和私信 */
+#footer {
+  padding: 0.3rem 0;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  box-sizing: content-box;
+}
+#footer span {
+  display: inline-block;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+#footer .follow {
+  width: 49%;
+  border-right: 1px solid #efefef;
+  color: #ad3939;
+}
+#footer .letter {
+  width: 49%;
+  color: #999;
+}
+/* 回复的弹框 */
+#zz {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+#msg_model {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 100;
+  padding: 0.6rem 0;
+  border-radius: 7px;
+}
+#msg_model textarea {
+  width: 90%;
+  margin-left: 5%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 4rem;
+}
+#msg_model > div {
+  width: 90%;
+  height: 1.6rem;
+  background-color: #ccc;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
+#msg_model .gary {
+  background-color: #ad3939;
+}
+/* 私信弹框 */
+#letterModel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+#msg_letter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 100;
+  padding: 0.6rem 0;
+  border-radius: 7px;
+}
+#msg_letter textarea {
+  width: 90%;
+  margin-left: 5%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 4rem;
+}
+#msg_letter > div {
+  width: 90%;
+  height: 1.6rem;
+  background-color: #ccc;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
+#msg_letter .gary {
+  background-color: #ad3939;
+}
+/* 相册弹框 */
+#bigImg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#bigImg img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+/*# sourceMappingURL=detailed.css.map */

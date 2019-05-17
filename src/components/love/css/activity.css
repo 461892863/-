@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+[v-cloak] {
+  display: none;
+}
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+.layui-layer-btn .layui-layer-btn0 {
+  border-color: #FA5051 !important;
+  background-color: #FA5051 !important;
+}
+.layui-layer-molv .layui-layer-title {
+  background-color: #FA5051 !important;
+}
+/* 背景图 */
+#img img {
+  width: 100%;
+}
+/* 活动信息 */
+#activeMsg {
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.74666667rem;
+  margin-bottom: 0.5rem;
+  color: #666666;
+}
+#activeMsg p span {
+  color: #ad3939;
+}
+/* 活动介绍 */
+#introduce {
+  margin-bottom: 5rem;
+  background-color: #fff;
+}
+#introduce > p {
+  padding: 0.34666667rem 0.5rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  border-bottom: 1px solid #efefef;
+  box-sizing: content-box;
+}
+#introduce > p span {
+  font-size: 0.90666667rem;
+}
+#introduce > p img {
+  width: 0.7rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  position: relative;
+  bottom: 2px;
+}
+#introduce > p .peo {
+  color: #ad3939;
+  float: right;
+  font-size: 0.74666667rem;
+}
+#introduce > div {
+  font-size: 0.74666667rem;
+  padding: 0.8rem;
+  text-indent: 30px;
+  color: #999999;
+}
+/* 报名 */
+#submit {
+  width: 90%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  background-color: #ad3939;
+  color: #fff;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 1rem;
+  left: 5%;
+}
+/*# sourceMappingURL=activity.css.map */

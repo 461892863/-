@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: PingFang-SC-Medium !important;
+  word-break: break-all;
+}
+
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+.messageBox {
+  width: 100%;
+}
+.messageBox > .messageLists {
+  width: 100%;
+  box-sizing: border-box;
+  /*border-bottom: 0.3px solid #efefef;*/
+}
+.messageBox > .messageLists > .listsBox {
+  background-color: #ffffff;
+  margin-bottom: 0.53333333rem;
+}
+.messageBox > .messageLists > .listsBox > .lists {
+  width: 100%;
+  padding: 0.5rem 0.8rem 0 0.8rem;
+  border-bottom: 1px solid #EFEFEF;
+  box-sizing: border-box;
+}
+.messageBox > .messageLists > .listsBox > .lists > .listsInfor {
+  display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+}
+.messageBox > .messageLists > .listsBox > .lists > .listsInfor img {
+  width: 2.29333333rem;
+  height: 2.29333333rem;
+  border-radius: 100%;
+}
+.messageBox > .messageLists > .listsBox > .lists > .listsInfor > .informationsAll {
+  margin-left: 0.77333333rem;
+  font-size: 0.8rem;
+  color: #333333;
+}
+.messageBox > .messageLists > .listsBox > .lists > .listsInfor > .informationsAll > .depet {
+  font-size: 0.64rem;
+  color: #999999;
+}
+.messageBox > .messageLists > .listsBox > .lists > .artic {
+  width: 100%;
+  font-size: 0.85333333rem;
+  margin: 5px 0;
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.messageBox > .messageLists > .listsBox > .lists > .artic img {
+  width: 0.90666667rem;
+  height: 0.8rem;
+  margin-left: 5px;
+}
+.messageBox > .messageLists > .listsBox > .lists > .time {
+  font-size: 0.64rem;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.messageBox > .messageLists > .listsBox > .lists > .time img {
+  width: 0.96rem;
+  height: 0.96rem;
+}
+.messageBox > .messageLists > .listsBox > .listsDetail {
+  width: 100%;
+  padding: 0.74666667rem 0.85333333rem;
+  box-sizing: border-box;
+}
+.messageBox > .messageLists > .listsBox > .listsDetail > .commentLists {
+  font-size: 0.85333333rem;
+}
+.messageBox > .messageLists > .listsBox > .listsDetail > .commentLists > .plContent > .name {
+  color: #5685b0;
+}
+.messageBox > .messageLists > .listsBox > .listsDetail > .commentLists > .time {
+  font-size: 0.64rem;
+  color: #999999;
+}
+#letterModel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+#msg_letter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 100;
+  padding: 0.6rem 0;
+  border-radius: 7px;
+}
+#msg_letter > .buttons {
+  background-color: #ad3939;
+  color: #FFFFFF;
+}
+#msg_letter textarea {
+  width: 90%;
+  margin-left: 5%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 4rem;
+}
+#msg_letter > div {
+  width: 90%;
+  height: 1.6rem;
+  background-color: #ccc;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
+#msg_letter .gary {
+  background-color: #ad3939;
+}
+/*# sourceMappingURL=messageCenter.css.map */

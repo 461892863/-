@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#perCenter{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+/* 头像 等 */
+#header {
+  background-color: #fff;
+  padding: 0.8rem 0.8rem;
+  padding-bottom: 0.3rem;
+  /*height: 4.26666667rem;*/
+  line-height: 4.26666667rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+#header .portrait {
+  width: 4.26666667rem;
+  height: 4.26666667rem;
+  float: left;
+  border-radius: 50%;
+}
+#header span {
+  float: left;
+  margin-left: 0.3rem;
+  font-size: 0.7rem;
+  color: #999;
+}
+#header span.name {
+  font-size: 0.8rem;
+  color: #333;
+}
+#header span.bm {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 6rem;
+}
+#header .right {
+  position: absolute;
+  top: 50%;
+  right: 0.2rem;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+/* 未加入时的弹框样式 */
+#model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#isAdd {
+  background-color: #fff;
+  width: 74%;
+  position: fixed;
+  top: 50%;
+  left: 13%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  border-radius: 4px;
+}
+#isAdd > p {
+  text-align: center;
+  padding-top: 0.69333333rem;
+  padding-bottom: 0.88rem;
+}
+#isAdd > p img {
+  display: inline-block;
+  width: 0.96rem;
+  height: 0.96rem;
+  vertical-align: middle;
+}
+#isAdd > p span {
+  color: #333;
+  font-size: 0.8rem;
+}
+#isAdd > .content {
+  padding: 0 1.2rem 0.77333333rem 1.2rem;
+  color: #666;
+  font-size: 0.7rem;
+}
+#isAdd > .bottom {
+  height: 45px;
+  border-top: 1px solid #ddd;
+}
+#isAdd > .bottom span {
+  float: left;
+  font-size: 0.8rem;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+#isAdd > .bottom .no {
+  width: 49%;
+  border-right: 1px solid #ddd;
+  color: #999;
+}
+#isAdd > .bottom .yes {
+  width: 50%;
+  color: #ad3939;
+}
+/* 加入之后的 */
+#isYes {
+  /* 列表 */
+}
+#isYes .header {
+  border-bottom: 1px solid #efefef;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  padding-top: 1.33333333rem;
+  padding-bottom: 1.38666667rem;
+  margin-bottom: .5rem;
+}
+#isYes .header .portrait {
+  width: 4.26666667rem;
+  height: 4.26666667rem;
+  border-radius: 50%;
+}
+#isYes .header .bj {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+#isYes .header .name .na {
+  font-size: 0.85rem;
+  color: #2f2f2f;
+}
+#isYes .header .name .dept {
+  font-size: 0.6rem;
+  color: #fff;
+  display: inline-block;
+  background-color: #c99066;
+  padding: 0.05rem 0.3rem;
+  border-radius: 13px;
+}
+#isYes .header .all span {
+  font-size: 0.55rem;
+  color: #888888;
+}
+#isYes .header .all span img {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  vertical-align: middle;
+}
+#isYes #tab {
+  background-color: #fff;
+  height: 2.34rem;
+  border-top: 1px solid #efefef;
+  padding: 0.27rem 0;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#isYes #tab a {
+  width: 50%;
+  float: left;
+  font-size: 0.75rem;
+  color: #666;
+  text-align: center;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  border-right: 1px solid #efefef;
+  position: relative;
+}
+#isYes #tab a img {
+  display: inline-block;
+  width: 0.88rem;
+  height: 0.88rem;
+  position: absolute;
+  top: 0.46rem;
+}
+#isYes #tab a span {
+  display: inline-block;
+  margin-left: 1.38666667rem;
+}
+#isYes #list a {
+  display: block;
+  background-color: #fff;
+  padding: 0.4rem 0.2rem 0.4rem 0.6rem;
+  height: 2.61333333rem;
+  border-bottom: 1px solid #efefef;
+  color: #333;
+  font-size: 0.8rem;
+  line-height: 1.81333333rem;
+  box-sizing: border-box;
+}
+#isYes #list a .right {
+  float: right;
+  width:32px;
+}
+#isYes #list a .icon {
+  width: 1.1rem;
+  vertical-align: middle;
+}
+#isYes #list a span {
+  display: inline-block;
+  margin-left: 0.4rem;
+}
+/* 底部 */
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 2.7rem;
+  box-shadow: 0 0 10px #ccc;
+}
+#footer ul {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+#footer ul a {
+  float: left;
+  width: 33.33%;
+  padding: 0.3rem 1.3rem;
+  box-sizing: border-box;
+  font-size: 0.6rem;
+  color: #666;
+}
+#footer ul a li img {
+  width: 1.15rem;
+}
+#footer ul a li span {
+  display: block;
+}
+#footer ul a.red {
+  color: #fe5f63;
+}
+/*# sourceMappingURL=perCenter.css.map */
